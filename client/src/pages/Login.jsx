@@ -116,7 +116,7 @@ const Login = () => {
                       Forgot your password?
                     </Link>
                   </div>
-
+                  {/*  */}
                   {errors.general && (
                     <p className="text-red-500 text-sm mb-4 text-center">
                       {errors.general}
